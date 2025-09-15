@@ -29,3 +29,14 @@ git status
 git restore test.py
 ls
 
+git remote add origin https://github.com/komal-sketch/Git-and-GitHub.git
+git remote -v
+git push origin master
+git remote set-url origin https://paste_token_here@github.com/komal-sketch/Git-and-GitHub.git
+git remote -v
+git push origin master
+git add .
+git commit -m "Basic Git commands"
+git push origin master
+
+
